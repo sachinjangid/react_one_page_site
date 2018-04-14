@@ -2,11 +2,41 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet"  href="style/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<title>Creating a React App Manually, Using Build Tools</title>
+
+		<title>Creating a React App Manually, Using Build Tools</title>
     </head>
-    <body id="app"></body>
+    <body>
+    	<div class="container-fluid">
+    		<nav class="navbar navbar-default">
+    			<div class="container-fluid">
+	    			<div class="navbar-header">
+	    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-1"
+	    				aria-expanded="false">
+	    					<span class="sr-only">Toggle navigation</span>
+	    					<span class="icon-bar"></span>
+	    					<span class="icon-bar"></span>
+	    					<span class="icon-bar"></span>
+	    				</button>
+	    				<a class="navbar-brand" href="#">My Interrior Design</a>
+	    			</div>
+
+		    		<div class="collapse navbar-collapse" id="nav-collapse-1">
+		    			<ul class="nav navbar-nav navbar-right">
+		    				<li><a href="#">Home</a></li>
+		    				<li><a href="#">About Me</a></li>
+		    				<li><a href="#">My Work</a></li>
+		    				<li><a href="#">Contact</a></li>
+		    			</ul>
+		    		</div>
+    			</div>	    		
+    		</nav>
+    	</div>
+    	
+    	<div id="app"></div>    	
+    </body>
 </html>
